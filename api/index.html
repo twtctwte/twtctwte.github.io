@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script type="text/javascript" src="imagelist.json"></script>
+        <title>随机图片</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon16.png">
+        <style>
+            img
+            {
+                width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var r=Math.floor(Math.random()*images.length)
+            document.write("<img src="+images[r]+">")
+        </script>
+    </body>
+</html>
