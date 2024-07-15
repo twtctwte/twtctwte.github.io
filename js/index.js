@@ -1,6 +1,6 @@
 window.addEventListener('load', function () {
   const request = axios.create({
-    baseURL: 'http://www.zhangb.top:8989',
+    baseURL: 'http://ai.tawertwtc.xyz',
   })
 
   // 图片id
