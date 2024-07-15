@@ -1,6 +1,6 @@
 window.addEventListener('load', function () {
   const request = axios.create({
-    baseURL: 'http://ai.tawertwtc.xyz',
+    baseURL: 'http://ai.tawertwtc.xyz/?',
   })
 
   // 图片id
