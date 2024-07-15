@@ -7,14 +7,7 @@ window.addEventListener('load', function () {
   let id = ''
   // 请求数据
   const data = {
-    // P表示第一次生成图片，U表示修改生成过的图片
-    type: 'P',
-    // 提示词
     prompt: '',
-    // 如果要修改图片则不能为空
-    imgId: "",
-    // 如果要修改图片则不能为空，图片编号1-4
-    num: 0
   }
 
   // 文本框输入事件
