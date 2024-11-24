@@ -1,4 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <iframe width="100%" height="1000" src="https://s5k.cn/inner/studio/gradio?backend_url=/api/v1/studio/BlinkDL/RWKV-CHN/gradio/">
+   <head>
+      <script>
+         window.onload = function() {
+            var iframe = document.getElementById("myiframe");
+            iframe.width = iframe.contentWindow.document.body.scrollWidth;
+            iframe.height = iframe.contentWindow.document.body.scrollHeight;
+         }
+      </script>
+   </head>
+   <body>
+      <iframe id="myiframe" src="https://s5k.cn/inner/studio/gradio?backend_url=/api/v1/studio/BlinkDL/RWKV-CHN/gradio/"></iframe>
+   </body>
 </html>
